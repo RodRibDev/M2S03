@@ -126,3 +126,62 @@ input {
     width: 500px;
     outline: none;
 }
+.sobre {
+    display: flex;
+    max-width: 70%;
+}
+.suporte {
+    margin-left: 40px;
+}
+h2 {
+    margin-bottom: 10px;
+}
+.suport {
+    background-color: rgb(234, 234, 234);
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+h4 {
+    margin-bottom: 20px;
+}
+.paginaSuporte {
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.cliques {
+    background-color: rgb(228, 238, 255);
+    color: rgba(44, 125, 254, 0.998);;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+.respostas {
+    background-color: rgb(247, 254, 232);
+    color: rgb(82, 114, 21);
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+.views {
+    background-color: rgb(254, 236, 236);
+    color: rgb(209, 81, 81);
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
