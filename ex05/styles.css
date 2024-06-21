@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+
+
+}
+
+.container {
+    background-image: url(/ex05/images/image.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lista {
+    width: 300px;
+    height: 50vh;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 7px;
+
+
+}
+#btnadd {
+    background-color: rgb(90, 138, 234);
+    border: none;
+    width: 20px;
+    height: 30px;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    margin: 0;
+    cursor: pointer;
+}
+input {
+    margin-top: 20px;
+    height: 30px;
+    border: 1px solid rgb(207, 207, 207);
+    outline: none;
+    box-shadow: none;
+    padding: 10px;
+    border-radius: 4px 0 0 4px ;
+}
+.inputGroup {
+    display: flex;
+    justify-content: space-around;
+}
+.inputGroup input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none; 
+}
+.inputGroup button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -1px;
+}
+.inseridos {
+    margin: 20px;
+}
+li {
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+li input {
+    margin: 0;
+}
+.btndelete {
+    background-color: rgb(90, 138, 234);;
+    color: white;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}
+.botaoDelete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+}
+h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
